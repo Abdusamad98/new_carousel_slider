@@ -42,6 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Colors.teal,
   ];
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -60,9 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 (index) => WrapItem(text: texts[index]),
               ),
             ),
-            SizedBox(
-              height: 50,
-            ),
+
+            SizedBox(height: 50),
             CarouselSlider(
                 options: CarouselOptions(
                   //  autoPlay: true,
